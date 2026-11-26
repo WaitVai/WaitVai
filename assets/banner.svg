@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="240" viewBox="0 0 860 240" fill="none">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="860" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#06221b"/>
+      <stop offset="100%" stop-color="#09111e"/>
+    </linearGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f42a41" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#f42a41" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#f42a41" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bdBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#006a4e">
+        <animate attributeName="stop-color" values="#006a4e;#f42a41;#00f5d4;#006a4e" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#f42a41">
+        <animate attributeName="stop-color" values="#f42a41;#00f5d4;#006a4e;#f42a41" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00f5d4">
+        <animate attributeName="stop-color" values="#00f5d4;#006a4e;#f42a41;#00f5d4" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    <clipPath id="bannerClip">
+      <rect x="2" y="2" width="856" height="236" rx="16"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer Frame -->
+  <rect x="2" y="2" width="856" height="236" rx="16" fill="url(#skyGrad)" stroke="url(#bdBorder)" stroke-width="2.5"/>
+
+  <g clip-path="url(#bannerClip)">
+    <!-- Twinkling Stars -->
+    <circle cx="80" cy="40" r="1.5" fill="#00f5d4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.3s" repeatCount="indefinite"/></circle>
+    <circle cx="160" cy="28" r="1.2" fill="#ffffff"><animate attributeName="opacity" values="0.9;0.2;0.9" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="250" cy="52" r="1.8" fill="#00f5d4"><animate attributeName="opacity" values="0.3;1;0.3" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="610" cy="34" r="1.5" fill="#ffffff"><animate attributeName="opacity" values="0.2;0.9;0.2" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="710" cy="48" r="2" fill="#f42a41"><animate attributeName="opacity" values="0.4;1;0.4" dur="2.9s" repeatCount="indefinite"/></circle>
+    <circle cx="790" cy="30" r="1.4" fill="#00f5d4"><animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite"/></circle>
+
+    <!-- Rising Crimson Sun (Bangladesh Flag Tribute) -->
+    <circle cx="430" cy="128" r="105" fill="url(#sunGlow)">
+      <animate attributeName="r" values="98;114;98" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="430" cy="128" r="54" fill="#f42a41" opacity="0.88">
+      <animate attributeName="r" values="52;56;52" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Padma Bridge / Dhaka Cyber Skyline Silhouette -->
+    <path d="M0,182 L45,182 L55,155 L75,155 L85,182 L130,182 L145,142 L168,142 L175,182 L215,182 L225,160 L245,160 L255,182 L860,182 L860,240 L0,240 Z" fill="#051310" opacity="0.9"/>
+    <!-- Bridge Towers & Cables -->
+    <g stroke="#00f5d4" stroke-width="1.2" opacity="0.45">
+      <line x1="290" y1="138" x2="290" y2="182"/>
+      <line x1="290" y1="138" x2="250" y2="180"/>
+      <line x1="290" y1="138" x2="330" y2="180"/>
+      <line x1="430" y1="132" x2="430" y2="182"/>
+      <line x1="430" y1="132" x2="385" y2="180"/>
+      <line x1="430" y1="132" x2="475" y2="180"/>
+      <line x1="570" y1="138" x2="570" y2="182"/>
+      <line x1="570" y1="138" x2="530" y2="180"/>
+      <line x1="570" y1="138" x2="610" y2="180"/>
+      <line x1="240" y1="180" x2="620" y2="180" stroke-width="2"/>
+    </g>
+
+    <!-- Animated Flowing Padma River Waves -->
+    <g opacity="0.75">
+      <path d="M-860,192 Q-752,178 -645,192 T-430,192 T-215,192 T0,192 T215,192 T430,192 T645,192 T860,192 L860,240 L-860,240 Z" fill="#006a4e">
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="430,0" dur="7s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g opacity="0.5">
+      <path d="M-860,204 Q-752,216 -645,204 T-430,204 T-215,204 T0,204 T215,204 T430,204 T645,204 T860,204 L860,240 L-860,240 Z" fill="#00f5d4">
+        <animateTransform attributeName="transform" type="translate" from="430,0" to="0,0" dur="5.5s" repeatCount="indefinite"/>
+      </path>
+    </g>
+    <g opacity="0.88">
+      <path d="M-860,214 Q-752,205 -645,214 T-430,214 T-215,214 T0,214 T215,214 T430,214 T645,214 T860,214 L860,240 L-860,240 Z" fill="#041e17">
+        <animateTransform attributeName="transform" type="translate" from="0,0" to="430,0" dur="9s" repeatCount="indefinite"/>
+      </path>
+    </g>
+
+    <!-- Main Title & Subtitle -->
+    <text x="430" y="92" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Ubuntu, sans-serif" font-size="44" font-weight="900" letter-spacing="2">
+      WaitVai ⚡ W8Team
+    </text>
+    <text x="430" y="122" text-anchor="middle" fill="#00f5d4" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="bold" letter-spacing="3">
+      MADE IN BANGLADESH • DHAKA CYBER ARSENAL
+    </text>
+    <text x="430" y="150" text-anchor="middle" fill="#e6edf3" font-family="Segoe UI, Ubuntu, sans-serif" font-size="15" font-weight="600" opacity="0.92">
+      Termux Mods  •  AI Agents  •  Frida &amp; Security Automation
+    </text>
+  </g>
+</svg>

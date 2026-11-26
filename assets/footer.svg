@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="105" viewBox="0 0 860 105" fill="none">
+  <defs>
+    <clipPath id="footClip">
+      <rect x="0" y="0" width="860" height="105" rx="14"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#footClip)">
+    <rect x="0" y="0" width="860" height="105" fill="#060d12"/>
+    <path d="M-860,42 Q-752,20 -645,42 T-430,42 T-215,42 T0,42 T215,42 T430,42 T645,42 T860,42 L860,105 L-860,105 Z" fill="#006a4e" opacity="0.75">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="430,0" dur="7s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-860,55 Q-752,72 -645,55 T-430,55 T-215,55 T0,55 T215,55 T430,55 T645,55 T860,55 L860,105 L-860,105 Z" fill="#f42a41" opacity="0.35">
+      <animateTransform attributeName="transform" type="translate" from="430,0" to="0,0" dur="6s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-860,68 Q-752,55 -645,68 T-430,68 T-215,68 T0,68 T215,68 T430,68 T645,68 T860,68 L860,105 L-860,105 Z" fill="#041914" opacity="0.9">
+      <animateTransform attributeName="transform" type="translate" from="0,0" to="430,0" dur="9s" repeatCount="indefinite"/>
+    </path>
+    <text x="430" y="72" text-anchor="middle" fill="#e6edf3" font-family="Consolas, 'Courier New', monospace" font-size="14" font-weight="bold">
+      Crafted with ❤️ in Bangladesh  •  WaitVai / W8Team  •  t.me/W8TeamNew
+    </text>
+  </g>
+</svg>
